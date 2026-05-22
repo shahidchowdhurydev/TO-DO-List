@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>To-Do List</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- TO-DO SECTION -->
+    <div class="project-body" id="todo">
+
+        <div class="todo-card">
+
+            <h1 class="todo-title">📝 To-Do List</h1>
+
+            <p class="todo-desc">A simple task manager to organize your daily work. <br></p>
+
+            <div class="input-area">
+
+                <input type="text"
+                       id="taskInput"
+                       class="task-input"
+                       placeholder="Enter a task">
+
+                <button id="addBtn" class="add-btn">
+                    Add Task
+                </button>
+
+            </div>
+
+            <ul id="taskList" class="task-list"></ul>
+
+            <div class="stats-bar">
+
+                <span id="totalCount">Total Tasks: 0</span>
+
+                <span>|</span>
+
+                <span id="completedCount">Completed: 0</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+</html>
